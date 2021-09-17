@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+/* Profile Image */
+img {
+    height: 10rem;
+    margin-left: 6rem;
+}
+
+/* Lines */
+.line-divisor{
+    color: rgb(221, 221, 221);
+    border-style: dashed;
+    height: 135%;
+    width: 0.01rem;
+}
+.line-divisor2{
+    background-color: teal;
+    height: 68.5rem;
+    width: 0.25rem;
+    position: relative;
+    top: 9rem;
+
+}
+.line-divisor3{
+    background-color: teal;
+    height: 27rem;
+    width: 0.25rem;
+    position: relative;
+    top: 21.5rem;
+}
+.line-divisor4{
+    display: none;
+    height: 100%;
+    width: 0.01rem;
+}
+
+/* Expériences professionnelles */
+ul.deco{
+    color: teal;
+}
+li.deco-text{
+    font-size: 1.5rem;
+}
+.subtitle-info{
+    color: grey;
+}
+.title-info{
+    color: teal;
+}
+li h4 {
+    margin-right: 2rem;
+}
+.li-1{
+    margin-bottom: 16.8rem;
+}
+.li-3{ 
+    margin-top: 16rem;
+}
+.li-4{
+    margin-top: 3rem;
+}
+.li-5{
+    margin-top: 10.5rem;
+}
+/* Group Professionnelle */
+.group-professionnelle{
+    display: inline-flex;
+}
+
+/* Formations */
+.group-formation{
+    display: inline-flex;
+}
+.formation-date{
+    position: relative;
+    bottom: 3rem;
+}
+.info-2{
+    margin-top: 2.5rem;
+}
+.info-3{
+    margin-top: 4.5rem;
+}
+.info-4{
+    margin-top: 2.8rem;
+}
+.info-5{
+    margin-top: 1rem;
+}
+
+/* Informations Personnelles */
+.information-personnelle{
+    display: inline-block;
+}
+li.deco-text span{
+    color: teal;
+}
+li.deco-text span i.black{
+    color: black;
+}
+li.deco-text span.anglais {
+    margin-left: 8.5rem;
+}
+li.deco-text span.français {
+    margin-left: 8rem;
+}
+li.deco-text span.allemand {
+    margin-left: 7.1rem;
+}
+li.deco-text span.espagnol {
+    margin-left: 7.3rem;
+}
+li.deco-text span.css {
+    margin-left: 2.3rem;
+}
+li.deco-text span.js {
+    margin-left: 6.8rem;
+}
+li.deco-text span.php {
+    margin-left: 10.45rem;
+}
+li.deco-text span.wp {
+    margin-left: 6.1rem;
+}
+li.deco-text span.sy {
+    margin-left: 7.5rem;
+}
+li.deco-text span.mysql {
+    margin-left: 8.5rem;
+}
+li.deco-text span.git {
+    margin-left: 4.8rem;
+}
+
+@media screen and (max-width: 425px) {
+    *{
+        font-size: 16px;
+    }
+    li.deco-text{
+        font-size: 1.1rem;
+    }
+    /* Profile image */
+    img{
+        margin-left: 1.8rem;
+        height: 15rem;
+    }
+
+    /* Lines */
+    .line-divisor{
+        height: 0.1rem;
+        width: 100%;
+        position: relative;
+        top: 6rem;
+
+    }
+    .line-divisor2{
+        height: 86rem;
+        width: 0.3rem;
+    }
+    .line-divisor3{
+        height: 31rem;
+        width: 0.3rem;
+    }
+
+    /* Nom et description */
+    .name{
+        position: relative;
+        bottom: 86rem;
+        text-align: center;
+    }
+
+    /* Expériences Professionnelles */
+    li h4{
+        font-size: 1.3rem;
+    }
+    .li-1{
+        margin-bottom: 25.8rem;
+    }
+    .li-3{ 
+        margin-top: 22rem;
+    }
+    .li-4{
+        margin-top: 4.5rem;
+    }
+    .li-5{
+        margin-top: 15.3rem;
+    }
+
+    /* Formations */
+    h2.ftion{
+        position: relative;
+        top: 1rem;
+    }
+    .formation-date{
+        position: relative;
+        bottom: 3rem;
+    }
+    .info-2{
+        margin-top: 2rem;
+    }
+    .info-3{
+        margin-top: 5.8rem;
+    }
+    .info-4{
+        margin-top: 1.2rem;
+    }
+    .info-5{
+        margin-top: 2rem;
+    }
+
+    /* Informations Personnelles */
+    .information-personnelle{
+        position: relative;
+        top: 6rem;
+        margin-left: 2rem;
+    }
+        
+    li.deco-text span.anglais {
+        margin-left: 6.95rem;
+    }
+    li.deco-text span.français {
+        margin-left: 6.55rem;
+    }
+    li.deco-text span.allemand {
+        margin-left: 5.95rem;
+    }
+    li.deco-text span.espagnol {
+        margin-left: 6rem;
+    }
+    li.deco-text span.css {
+        margin-left: 2.3rem;
+    }
+    li.deco-text span.js {
+        margin-left: 5.6rem;
+    }
+    li.deco-text span.php {
+        margin-left: 8.3rem;
+    }
+    li.deco-text span.wp {
+        margin-left: 5.15rem;
+    }
+    li.deco-text span.sy {
+        margin-left: 6.17rem;
+    }
+    li.deco-text span.mysql {
+        margin-left: 6.95rem;
+    }
+    li.deco-text span.git {
+        margin-left: 4.25rem;
+    }
+
+}

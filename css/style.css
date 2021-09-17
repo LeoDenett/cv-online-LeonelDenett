@@ -1,0 +1,137 @@
+* {
+    font-family: 'Lato', ;
+}
+
+
+img{
+    height: 10rem;
+}
+.line-divisor{
+    background-color: teal;
+    height: 44rem;
+    width: 0.5rem;
+    display: inline-flex;
+}
+
+.line-divisor2{
+    color: rgb(221, 221, 221);
+    border-style: dashed;
+    height: 90rem;
+    width: 0.1rem;
+    display: inline-flex;
+}
+
+/* Titles information */
+.title-info{
+    color: teal;
+}
+
+/* Expériences professionnelles */
+ul.professionelle{
+    color: teal;
+}
+.li-1{
+    margin-bottom: 8rem;
+}
+.li-2{ 
+    margin-bottom: 8rem;
+}
+.li-4{
+    margin-bottom: 5.3rem;
+}
+/* Formations */
+h2.formation-title{
+    position: relative;
+    right: 1.5rem;
+}
+ul.formation{
+    color: teal;
+}
+.line-divisor3{
+    background-color: teal;
+    height: 21rem;
+    width: 0.5rem;
+    display: inline-flex;
+    position: relative;
+    top: 5rem;
+}
+.formation{
+    margin-top: 8rem;
+}
+.subtitle-info{
+    color: grey;
+}
+
+@media screen and (max-width: 425px) {
+    /* Profile image */
+    img{
+        margin-left: 3.5rem;
+        position: relative;
+        bottom: 80rem;
+        height: 15rem;
+    }
+
+    /* Lines */
+    .line-divisor{
+        display: inline-block;
+        position: relative;
+        top: 42rem;
+        height: 0.1rem;
+        width: 100%;
+        margin: auto;
+    }
+    .line-divisor3{
+        display: inline-block;
+        position: relative;
+        top: 42rem;
+        height: 0.1rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* Nom et description */
+    .name{
+        position: relative;
+        bottom: 60rem;
+        text-align: center;
+    }
+
+    /* Expériences Professionnelles */
+    h2.ep{
+        position: relative;
+        bottom: 43rem;
+    }
+    .group-professionnelle{
+        position: relative;
+        bottom: 45rem;
+    }
+    li h4{
+        font-size: 1.3rem;
+    }
+    .li-1{
+        margin-bottom: 18rem;
+    }
+    .li-2{ 
+        margin-bottom: 10rem;
+    }
+    .li-3{ 
+        margin-top: 16rem;
+    }
+    .li-4{
+        margin-top: 4.5rem;
+    }
+    .li-5{
+        margin-top: 10.3rem;
+    }
+
+    /* Formations */
+    .group-formation{
+        position: relative;
+    }
+
+    /* Informations Personnelles */
+    .information-personnelle{
+        position: relative;
+        top: 88rem;
+    }
+}
